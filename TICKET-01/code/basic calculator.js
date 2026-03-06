@@ -1,9 +1,15 @@
- **Variables:**
-   - Declare `num1` and `num2` with any numbers
-   
-2. **Operations:**
-   - Calculate and store: sum, difference, product, quotient
-   
-3. **Output:**
-   - Log each result with a descriptive label
-   - Example: "Addition: 6 + 4 = 10"
+// Variables:
+const num1 = 6;
+const num2 = 4;
+
+// Operations:
+const sum = num1 + num2;
+const difference = num1 - num2;
+const product = num1 * num2;
+const quotient = num1 / num2;
+
+// Output:
+console.log(`Addition: ${num1} + ${num2} = ${sum}`);
+console.log(`Subtraction: ${num1} - ${num2} = ${difference}`);
+console.log(`Multiplication: ${num1} * ${num2} = ${product}`);
+console.log(`Division: ${num1} / ${num2} = ${quotient}`);
