@@ -1,16 +1,12 @@
-//name
-//age
-//student or not
-//favorit programming language
+const myName = "Abdul"; 
+let myAge = 23;
+let isStudent = true; 
+let favProgLang = "Html"; 
 
-const myName = "Hajara";
-console.log("my name is:", myName);
+console.log("Name:", myName);
+console.log("Age:", myAge);
+console.log("Is Student:", isStudent);
+console.log("Favorite Programming Language:", favProgLang);
 
-let age = "36";
-console.log("my age is:", age);
 
-let student = "true";
-console.log(student);
 
-const myFavProgLang = "JavaScript";
-console.log("my favorite programming language is:", myFavProgLang)

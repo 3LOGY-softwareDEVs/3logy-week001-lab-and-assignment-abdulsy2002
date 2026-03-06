@@ -1,32 +1,32 @@
-//SIMPLE FUNCTION
-//FUNCTION WITH RETURN
-//FUNCTION WITH LOGIC
-//greet a user by name
-//name as parameter
-
-function greetUser(Aisha) {
-    console.log("good day," + Aisha + "! how may we help you?");
+// =============================
+// 1. SIMPLE FUNCTION: GREET USER
+// =============================
+function greetUser(name) {
+    console.log(`Hello, ${name}!`);
 }
- //add number
- function addNumbers(number1, number2) {
-    return number1 + number2;
- }
 
- //is number even?
+// =============================
+// 2. FUNCTION WITH RETURN: ADD TWO NUMBERS
+// =============================
+function addNumbers(a, b) {
+    return a + b;
+}
+
+// =============================
+// 3. FUNCTION WITH LOGIC: CHECK EVEN
+// =============================
 function isEven(number) {
-    if (number % 2 ===0) {
-        return true;
-    } else {
-        return false;
-    }
+    return number % 2 === 0;
 }
 
-//call greeting function
-greetUser("Aisha");
+// =============================
+// 4. CALL ALL FUNCTIONS WITH TEST VALUES
+// =============================
 
-//call sum function
-let sum = addNumbers(70, 20);
-console.log("sum is:", sum);
-//call even check function
-let result = isEven(20);
-console.log("is the number even?", result);
+greetUser("Alice");  // Example output: Hello, Alice!
+
+let sum = addNumbers(7, 8);
+console.log(`Sum: ${sum}`);  // Example output: Sum: 15
+
+console.log(`Is 8 even? ${isEven(8)}`);  // true
+console.log(`Is 7 even? ${isEven(7)}`);  // false
