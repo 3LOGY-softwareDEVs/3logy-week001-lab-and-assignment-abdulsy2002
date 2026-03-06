@@ -6,4 +6,4 @@
    
 3. **Output:**
    - Log each result with a descriptive label
-   - Example: "Addition: 5 + 3 = 8"
+   - Example: "Addition: 6 + 4 = 10"
